@@ -12,7 +12,12 @@
 	}
 </style>
 <body>
-	<div id="app"></div>
+	<div id="app">
+		<h1>Hello, Laravel</h1>
+		<header-component></header-component>
+		<example-component></example-component>
+		<footer-component></footer-component>
+	</div>
 	<script type="text/javascript" src="{{ asset('js/app.js') }}"></script>
 </body>
 </html>
